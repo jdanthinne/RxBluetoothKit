@@ -7,7 +7,7 @@ let package = Package(
     name: "RxBluetoothKit",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v10_13), .iOS(.v11), .tvOS(.v11), .watchOS(.v4),
+        .macOS(.v10_13), .iOS(.v12), .tvOS(.v11), .watchOS(.v4),
     ],
     products: [
         .library(name: "RxBluetoothKit", targets: ["RxBluetoothKit"]),
@@ -23,7 +23,7 @@ let package = Package(
             ],
             path: ".",
             exclude: [
-                "Example",
+                "ExampleApp",
                 "Tests",
                 "Source/Info.plist",
                 "Source/RxBluetoothKit.h",
